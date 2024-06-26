@@ -1,0 +1,40 @@
+.sliderContainer{
+    width: 80%;
+    margin: auto;
+    height: 91%;
+}
+.slides{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sliderContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sliderContent span{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.sliderContent h2{
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.sliderContent button{
+    width: 15%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #6c7ae0;
+    border: none;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.sliderContent button:hover{
+    background-color: black;
+}

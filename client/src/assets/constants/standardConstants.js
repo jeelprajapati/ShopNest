@@ -1,0 +1,13 @@
+export const LOADING_CATEGORY="LOADING_CATEGORY";
+export const FETCH_CATEGORY="FETCH_CATEGORY";
+export const FAIL_CATEGORY="FAIL_CATEGORY";
+
+export const LOADING_COLORS="LOADING_COLORS";
+export const FETCH_COLORS="FETCH_COLORS";
+export const FAIL_COLORS="FAIL_COLORS"; 
+
+export const LOADING_TAGS="LOADING_TAGS";
+export const FETCH_TAGS="FETCH_TAGS";
+export const FAIL_TAGS="FAIL_TAGS"; 
+
+export const CLEAR_ERROR="CLEAR_ERROR";

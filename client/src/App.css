@@ -1,0 +1,19 @@
+* {
+  font-family: "Inter";
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.error{
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}

@@ -1,0 +1,16 @@
+.favorites{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.favorites h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.favoritesContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

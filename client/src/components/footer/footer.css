@@ -1,0 +1,72 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    width: 100%;
+}
+.footerContainer{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.footerWrapper{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footer h4{
+    color: white;
+}
+.footerCategory{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.footerCategory span{
+    color: gray;
+    font-size: 15px;
+}
+.footerContact{
+    flex: 2;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footerText{
+    color: gray;
+    font-size: 15px;
+}
+.newSletter{
+    flex: 2;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footerEmail input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 7px;
+    outline: none;
+    transition: ease 0.5s;
+}
+.footerEmail input:focus{
+    border-bottom: 2px solid #6c7ae0;
+}
+.subscribeBtn button{
+    padding: 13px 40px;
+    color: white;
+    font-size: 15px;
+    background-color: #6c7ae0;
+    border: none;
+    border-radius:25px;
+}
+.copyRight{
+    width: 80%;
+    color: gray;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+}

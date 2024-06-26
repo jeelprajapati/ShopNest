@@ -1,0 +1,6 @@
+export const LOADING_ORDERS="LOADING_ORDERS"
+export const FETCH_ORDERS="FETCH_ORDERS"
+export const FAIL_ORDERS="FAIL_ORDERS"
+
+export const CLEAR_ERROR="CLEAR_ERROR"
+

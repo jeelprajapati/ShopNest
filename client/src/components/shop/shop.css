@@ -1,0 +1,130 @@
+.shopContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.shopTopbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopCategory {
+  display: flex;
+  gap: 20px;
+}
+.shopCategory span {
+  font-size: 15px;
+  font-weight: 400;
+  transition: ease 0.5s;
+}
+.shopCategoryItem {
+  color: gray;
+  cursor: pointer;
+}
+.shopCategorySelected {
+  border-bottom: 1px solid;
+  color: black;
+}
+.shopRight {
+  display: flex;
+  gap: 20px;
+}
+.shopBox {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  gap: 7px;
+  border: 0.1px solid rgb(208, 208, 208);
+  cursor: pointer;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+.shopBox:hover {
+  background-color: #6c7ae0;
+  color: white;
+}
+.shopBoxSelected {
+  display: flex;
+  gap: 7px;
+  width: 100px;
+  height: 40px;
+  border: 0.1px solid rgb(233, 233, 233);
+  cursor: pointer;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  background-color: rgb(233, 233, 233);
+  align-items: center;
+  justify-content: center;
+}
+.shopBoxSelected:hover{
+    background-color: #6c7ae0;
+    color: white;
+}
+.shopBoxSelected:hover .shopArrow {
+  border-top: 10px solid #6c7ae0;
+}
+.shopArrow {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 10px solid rgb(233, 233, 233);
+  margin: 20px auto;
+  position: absolute;
+  bottom: -29px;
+  left: 39%;
+}
+.filters{
+  width: 100%;
+  height:260px;
+  background-color: rgb(233, 233, 233);
+  transition: ease 0.5s;
+}
+.searchbar{
+  width: 100%;
+}
+.products{
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.loadingBtn{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadingBtn button{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 30px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  border-radius: 25px;
+}
+.loadingBtn button:hover{
+  background-color: black;
+  color: white;
+}
+
+/* @media only screen and (min-width: 768px) {
+  .categoryCard {
+      flex: 0 0 49%;
+      max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .categoryCard  {
+      flex: 0 0 32.333333%;
+      max-width: 33.333333%;
+  }
+} */
